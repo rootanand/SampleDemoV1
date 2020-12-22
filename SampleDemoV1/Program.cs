@@ -16,5 +16,10 @@ namespace SampleDemoV1
         {
             return i + j;
         }
+
+        public double Divide(int numerator, int denominator)
+        {
+            return (double)numerator / denominator;
+        }
     }
 }
