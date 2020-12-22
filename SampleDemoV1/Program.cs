@@ -16,5 +16,10 @@ namespace SampleDemoV1
         {
             return i + j;
         }
+
+        public int Product(int i, int j)
+        {
+            return i * j;
+        }
     }
 }
