@@ -17,9 +17,16 @@ namespace SampleDemoV1
             return i + j;
         }
 
+        public int Product(int i, int j)
+        {
+            return i * j;
+        }
+        //this is my contribution and it does not interfere with the product method
         public double Divide(int numerator, int denominator)
         {
             return (double)numerator / denominator;
         }
+
+
     }
 }
